@@ -34,8 +34,7 @@
             android:layout_marginBottom="16dp"
             android:background="@drawable/ic_pause"
             android:backgroundTint="#7E6EEF"
-            android:contentDescription="@string/description_play_button"
-            android:foreground="?attr/selectableItemBackground" />
+            android:contentDescription="@string/description_play_button" />
 
         <ImageButton
             android:id="@+id/btn_prev_notification"
@@ -48,8 +47,7 @@
             android:layout_toStartOf="@id/btn_pause_notification"
             android:background="@drawable/ic_previous"
             android:backgroundTint="#7E6EEF"
-            android:contentDescription="@string/description_previous_button"
-            android:foreground="?attr/selectableItemBackground" />
+            android:contentDescription="@string/description_previous_button" />
 
         <ImageButton
             android:id="@+id/btn_next_notification"
@@ -62,8 +60,7 @@
             android:layout_toEndOf="@id/btn_pause_notification"
             android:background="@drawable/ic_next"
             android:backgroundTint="#7E6EEF"
-            android:contentDescription="@string/description_next_button"
-            android:foreground="?attr/selectableItemBackground" />
+            android:contentDescription="@string/description_next_button" />
 
         <TextView
             android:id="@+id/txt_current_music_notification"
