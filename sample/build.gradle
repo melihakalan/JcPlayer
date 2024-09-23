@@ -9,7 +9,6 @@ android {
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
         release {
@@ -27,7 +26,4 @@ dependencies {
     implementation "com.android.support:appcompat-v7:$rootProject.ext.supportVersion"
     implementation "com.android.support:recyclerview-v7:$rootProject.ext.supportVersion"
     implementation "com.android.support.constraint:constraint-layout:$rootProject.ext.constraintLayoutVersion"
-//    implementation 'com.github.jeancsanchez:JcPlayer:2.6.11'
-
-    testImplementation 'junit:junit:4.12'
 }
