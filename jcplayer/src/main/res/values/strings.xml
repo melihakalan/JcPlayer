@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name" title="app_name">JCPlayer</string>
-    <string name="text_long">testestetestestetestestestetestestetestestestetestestetestestestetestestetestestestetestestetestestestetestestetestestestetestestetestestestetestestetestestestetestestetestestestetestestetestestestetestestetestestestetestestetes</string>
-    <string name="text_short">testestetestestetes</string>
+    <string name="text_long">test</string>
+    <string name="text_short">test</string>
     <string name="play_initial_time">00:00</string>
     <string name="track_number">Track</string>
     <string name="description_icon_player">player icon</string>
